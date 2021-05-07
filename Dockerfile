@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 RUN dpkg --add-architecture i386
 RUN apt-get -y update
 RUN apt-get -y --no-install-recommends install software-properties-common apt-utils
